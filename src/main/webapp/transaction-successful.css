@@ -1,0 +1,13 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://msl-ltd.co.uk/wp-content/uploads/2020/04/Energy-Management.jpg');
+    background-size: cover;
+    background-position: center;
+  
+}

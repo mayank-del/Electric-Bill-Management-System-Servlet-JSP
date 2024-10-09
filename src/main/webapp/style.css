@@ -1,0 +1,98 @@
+/* Common styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://msl-ltd.co.uk/wp-content/uploads/2020/04/Energy-Management.jpg');
+    background-size: cover;
+    background-position: center;
+  /* background: linear-gradient(135deg, #2a2b38, #52545c); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-card,
+.signin-card {
+  background-color: #66A5AD;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  /* color: rgb(182, 177, 177); */
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  /* color: rgb(182, 177, 177); */
+  color: white;
+}
+
+select {
+  background-color: #C4DFE6;
+  color: rgb(80, 75, 75);
+  border: none;
+}
+
+option {
+  color: rgb(153, 148, 148);
+  border: none;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 5px;
+  background-color: #C4DFE6;
+  /* color: rgb(182, 177, 177); */
+  color: rgb(82, 76, 76);
+
+}
+
+.form-group-agree {
+  display: flex;
+  align-items: center;
+}
+
+.form-group-agree label {
+  margin-left: 5px;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  width: 40%;
+  padding: 10px;
+  background-color: #4d7f86;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-group button:hover {
+  background-color: #3e676d;
+}

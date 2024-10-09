@@ -1,0 +1,244 @@
+body, html {
+    
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    background-image: url('https://msl-ltd.co.uk/wp-content/uploads/2020/04/Energy-Management.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 120vh;
+}
+ a,button{
+    cursor: pointer;
+ }
+  .signup-card,
+  .signin-card {
+    background-color: #66A5AD;
+    color:whitesmoke ;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-left a, .dropdown {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #f9f9f9;
+    border: none;
+}
+
+.dropbtn:hover {
+    cursor: pointer;
+    /* background-color: #504d4d; */
+    border: 1px solid rgb(71, 69, 69);
+    border-radius: 10px;
+}
+
+.navbar-right {
+    color: white;
+    padding: 14px 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #413f3f;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color:whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background 0.3s;
+    background:transparent;
+    border:2px solid transparent;
+}
+
+.nav-buttons:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.login-btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    text-align: left;
+    margin: 20% 0 0 10%;
+}
+
+.content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 17px;
+    max-width: 600px;
+    color: white;
+}
+.user-info {
+    
+    font-size: 16px;
+}
+a,button{
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  select{
+    background-color: #C4DFE6;
+    
+
+    color: rgb(82, 76, 76);
+    border: none;
+  }
+  option{
+    color: rgb(82, 76, 76);
+    background-color: #94c2cf;
+    border: none;
+  }
+  textarea,
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    border: none;
+    border-radius: 5px;
+    background-color: #C4DFE6;
+    color: rgb(82, 76, 76);
+  }
+  
+  .form-group-agree {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group-agree label {
+    margin-left: 5px;
+    color: rgb(182, 177, 177);
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    width: 40%;
+    padding: 10px;
+    background-color: #4d7f86;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button-group button:hover {
+    background-color: #3e676d;
+  }
+
+
