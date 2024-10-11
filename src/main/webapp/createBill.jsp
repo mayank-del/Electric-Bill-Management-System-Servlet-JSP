@@ -17,57 +17,24 @@
           <h1>TATA</h1>
         </div>
         <ul>
-        <li>
 
-         <button class="nav-buttons" onclick="callHome()">Home</button>
-           
-        </li>
         <li>
-            <form action="UsersControllers" method="get">
-                <input type="hidden" name="func" value="viewbills">
-                <input id ="cidparaView"type="hidden" name="custId" value="">
-                <button class="nav-buttons" type="submit">View Bill</button>
-            </form>
-        </li>
-        <li>
-            <form action="UsersControllers" method="get">
-                <input type="hidden" name="action" value="pastBill">
-                <button class="nav-buttons" type="submit">Past Bills</button>
-            </form>
-        </li>
-         
-        
-        <li>
-            <form action="UsersControllers" method="get">
-                <input type="hidden" name="func" value="complainStatus">
-                <input id ="cidStatus"type="hidden" name="custId" value="">
-                <button class="nav-buttons" type="submit">Complaint Status</button>
-            </form>
+            <button class="nav-buttons" onclick="window.location.href='admindashboard.jsp'">Admin Dashboard</button>
         </li>
         
         <li>
             <form action="UsersControllers" method="get">
-                <input type="hidden" name="func" value="viewPastComp">
-                <input id ="cidPastCompStatus"type="hidden" name="custId" value="">
-                <button class="nav-buttons" type="submit">Complaint History</button>
-            </form>
-        </li>
-        <li>
-            <form action="UsersControllers" method="get">
-                <input type="hidden" name="func" value="getcust">
-                <input id ="cidpara"type="hidden" name="custId" value="">
-                <button class="nav-buttons" type="submit">Profile</button>
+                <input type="hidden" name="func" value="getAllPendingComp">
+                
+               <button class="nav-buttons" type="submit">Update Complain Status</button>
             </form>
         </li>
         
-        <li>
+        
+        
             
-                <button class="nav-buttons" onclick="window.location.href='updateProfile.jsp'">Logout</button>
-           
-        </li>
-        
         </ul>
-        <div  style="color:white;"class="user-info">
+        <div class="user-info">
             <span id="customer-name"></span> | <span id="customer-id"></span>
         </div>
       </nav>

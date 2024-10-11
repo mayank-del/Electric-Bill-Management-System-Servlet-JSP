@@ -20,7 +20,8 @@ public class AdminComplaintStatusUpdateService {
     		String compId=request.getParameter("comp_id");
     		String status=request.getParameter("status");
     		
-    		
+    		System.out.println(compId);
+    		System.out.println(status);
     		
     		Class.forName(CLASS_NAME);
             con = DriverManager.getConnection(URL,USER,PASSWORD);

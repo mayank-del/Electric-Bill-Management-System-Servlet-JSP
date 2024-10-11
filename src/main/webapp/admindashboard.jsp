@@ -16,14 +16,7 @@
           <h1>TATA</h1>
         </div>
         <ul>
-        
-         
-        <!-- <li>
-            <form action="UsersControllers" method="post">
-                <input type="hidden" name="func" value="registerComplaint">
-                <button class="nav-buttons" type="submit">Register Complaint</button>
-            </form>
-        </li>-->
+
         <li>
 
          <button class="nav-buttons" onclick="window.location.href='createBill.jsp'">Create Bill</button>
@@ -53,18 +46,7 @@
           group, has expertise in manufacturing precision components.
         </p>
       </div>
-      <script >
-  
-		const customerId=parseInt(localStorage.getItem('customerId'));
-	  	document.getElementById("cidpara").value=customerId;
-		document.getElementById("cidparaView").value=customerId;
-		document.getElementById("cidparaPastView").value=customerId;
-		document.getElementById("cidCompReg").value=customerId;
-		document.getElementById("cidStatus").value=customerId;
-		document.getElementById("cidPastCompStatus").value=customerId;
-		
-		
-    </script>
+      
      
 		<script src="admDashboard-script.js"></script>
 		

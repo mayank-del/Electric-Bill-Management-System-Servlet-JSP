@@ -47,9 +47,10 @@
                 text: `Login successful!`,
                 icon: 'success'
             }).then(() => {
-                // After SweetAlert closes, redirect to the login page
+
                 localStorage.setItem("adminName",uname);
                 localStorage.setItem("adminId",cid);
+                localStorage.setItem("userRole","admin")
                 window.location.href = "admindashboard.jsp";
             });
         }else if(success.toString() === 'false'){
